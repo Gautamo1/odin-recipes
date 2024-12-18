@@ -1,0 +1,88 @@
+/* Reset for consistency across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Light gray background */
+    color: #333; /* Dark gray for readability */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container for all content */
+body > * {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds subtle depth */
+}
+
+/* Header styles */
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #8b0000; /* Deep red for chili theme */
+    margin-bottom: 20px;
+}
+
+/* Subheading styles */
+h3 {
+    font-size: 1.5rem;
+    color: #8b0000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph text */
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Image styling */
+img {
+    display: block;
+    margin: 0 auto; /* Center the image */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* List styling */
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+/* Add a checkmark before list items in the unordered list */
+ul li::before {
+    content: "✔ ";
+    color: #8b0000;
+}
+
+/* Ordered list */
+ol {
+    list-style: decimal inside;
+}
+
+/* Hover effects */
+img:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    transition: transform 0.3s ease;
+}
+
+li:hover {
+    color: #8b0000; /* Highlight list item on hover */
+}

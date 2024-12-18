@@ -1,0 +1,59 @@
+/* Reset for consistency across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Light gray for a clean look */
+    color: #333; /* Dark gray for readability */
+    line-height: 1.6;
+    padding: 20px;
+    text-align: center; /* Center the content */
+}
+
+/* Main header styling */
+h1 {
+    font-size: 2.5rem;
+    color: #8b0000; /* Deep red for a bold header */
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Makes it stand out */
+    border-bottom: 2px solid #8b0000; /* Underline the title */
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Unordered list styling */
+ul {
+    list-style: none; /* Remove default bullets */
+    margin: 20px auto;
+    padding: 0;
+    max-width: 400px; /* Keep it centered and compact */
+}
+
+/* List items */
+li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+/* Link styling */
+a {
+    text-decoration: none; /* Remove default underline */
+    color: #8b0000; /* Match the theme */
+    font-weight: bold;
+    border: 2px solid #8b0000; /* Adds a border around links */
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for links */
+a:hover {
+    background-color: #8b0000; /* Deep red background */
+    color: #fff; /* White text */
+    transform: scale(1.05); /* Slight zoom effect */
+}
